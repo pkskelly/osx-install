@@ -1,0 +1,25 @@
+#!/bin/sh 
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension EditorConfig.EditorConfig
+code --install-extension HookyQR.beautify
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension SteveCurran.spremoteapi
+code --install-extension WakaTime.vscode-wakatime
+code --install-extension anseki.vscode-color
+code --install-extension bradygaster.azuretoolsforvscode
+code --install-extension dbankier.vscode-gist
+code --install-extension donjayamanne.githistory
+code --install-extension eg2.tslint
+code --install-extension johnpapa.Angular1
+code --install-extension johnpapa.Angular2
+code --install-extension kisstkondoros.vscode-codemetrics
+code --install-extension knom.office-mailapp-manifestuploader
+code --install-extension ms-vscode.PowerShell
+code --install-extension ms-vscode.Theme-MarkdownKit
+code --install-extension ms-vscode.csharp
+code --install-extension ms-vscode.mono-debug
+code --install-extension msazurermtools.azurerm-vscode-tools
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension seanmcbreen.Spell
+code --install-extension wcwhitehead.bootstrap-3-snippets
