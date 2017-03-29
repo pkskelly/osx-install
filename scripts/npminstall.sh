@@ -22,6 +22,5 @@ npm install -g source-map-explorer
 npm install -g superstatic
 npm install -g typings
 npm install -g uglify-js
-npm install -g webpack
 npm install -g yarn
 npm install -g yo
