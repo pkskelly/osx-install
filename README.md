@@ -129,6 +129,7 @@ git config --global merge.tool code
 - Login to EverNote
 - Install Office Apps from Office 365
 - Install BitDefender
+- Install TextExpander
 
 
 
