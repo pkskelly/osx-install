@@ -24,9 +24,11 @@ brew install sqlitebrowser
 
 #install NVM to enable 
 brew install NVM
-echo export NVM_DIR=~/.nvm >> ~/.bashrc
-echo source $(brew --prefix nvm)/nvm.sh
-
+mkdir ~/.nvm
+touch ~/.bash_profile
+echo export NVM_DIR=~/.nvm >> ~/.bash_profile
+echo source $(brew --prefix nvm)/nvm.sh >> ~/.bash_profile
+source ~/.bash_profile
 
 ## Still testing this and need to validate 
 # #install OpenSSL for .NET Core
