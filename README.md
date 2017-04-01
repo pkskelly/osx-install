@@ -10,6 +10,7 @@ Before starting a fresh install or re-pave, backup current virtual machines from
 - Clean out Downloads, backup any files needed
 - Clean out Desktop, backup any files needed
 - Clean out Movies or backup as needed
+- Backup Chrome Profiles in ~/Library/Application Support/Google/Chrome
 - Run TimeMachine for a back up 
 - Open terminal and navigate to /Applications. Run ls -1 to list all apps - print list and update scripts as needed  
 - Copy config files
