@@ -131,7 +131,21 @@ git config --global merge.tool code
 - Install BitDefender
 - Install TextExpander
 
+## Ongoing... HOWTO Keep Things Updated
 
+To keep homebrew installed things update, do this:
+
+  ```shell
+  brew update           # download app updated formulas
+  brew outdated         # what’s old?
+  brew upgrade          # upgrade everything locally
+  # list all brew casks installed & their versions
+  brew cu --dry-run
+  # optionally update everything
+  brew cu
+  # cleanup everything
+  brew cleanup
+  ```
 
 
 
