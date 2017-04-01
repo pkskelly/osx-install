@@ -86,8 +86,8 @@ echo source $(brew --prefix nvm)/nvm.sh
 
 ## Update Homebrew and all installs
 ```
-brew updates
-brew updates brew-cask
+brew update
+brew upgrade brew-cask
 brew cleanup
 ```
 
