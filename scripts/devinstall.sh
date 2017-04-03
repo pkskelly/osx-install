@@ -3,6 +3,7 @@ brew install azure-cli
 brew cask install diffmerge
 brew cask install docker
 brew cask install firefox 
+brew cask install ghost
 brew cask install iterm
 brew install jsawk
 brew install jsdoc3
