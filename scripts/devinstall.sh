@@ -20,7 +20,7 @@ brew install youtube-dl
 #databases
 brew cask install mongodb
 brew cask install robomongo
-brew install sqlitebrowser
+brew cask install sqlitebrowser
  
 
 #install NVM to enable 
