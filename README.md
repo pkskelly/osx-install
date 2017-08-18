@@ -133,7 +133,7 @@ git config --global merge.tool code
 
 ## Ongoing... HOWTO Keep Things Updated
 
-To keep homebrew installed things update, do this:
+To keep homebrew installed things update, do this (you may need to run ```brew tap buo/cask-upgrade``` for cu utility):
 
   ```shell
   brew update           # download app updated formulas
