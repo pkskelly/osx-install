@@ -4,7 +4,7 @@ brew cask install diffmerge
 brew cask install docker
 brew cask install firefox 
 brew cask install ghost
-brew cask install iterm
+brew cask install iterm2
 brew install jsawk
 brew install jsdoc3
 brew cask install pencil
