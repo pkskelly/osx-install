@@ -32,10 +32,12 @@ Before starting a fresh install or re-pave, backup current virtual machines from
 - Create personal profile 
 - Configure initial settings with login
 
-## First App Installs
-- Install XCode via AppStore
-     - apply updates, open at least once
-- Install Purchased Apps from App Store
+## Install MacOS Apps
+Install apps from the store. 
+
+```
+curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/macos-install.sh | sh
+```
 
 
 ## Homebrew & Homebrew Cask
