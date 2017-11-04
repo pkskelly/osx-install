@@ -87,7 +87,7 @@ Run the following to install all extensions.
 curl -L  https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/vs-code-insiders-install.sh | sh
 
 ```
-If the comand fails, try Cmd + Shift + P and then type install and choose the
+If the command fails, try Cmd + Shift + P and then type install and choose the
 ```
 Shell Command: Install 'code-insiders' command in PATH
 ```
