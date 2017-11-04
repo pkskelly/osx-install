@@ -32,23 +32,6 @@ curl -L https://aka.ms/InstallAzureCli | bash
 brew cask install mongodb
 brew cask install robomongo
 brew cask install sqlitebrowser
- 
 
-#install NVM to enable 
-brew install NVM
-mkdir ~/.nvm
-touch ~/.bash_profile
-echo export NVM_DIR=~/.nvm >> ~/.bash_profile
-echo source $(brew --prefix nvm)/nvm.sh >> ~/.bash_profile
-source ~/.bash_profile
 
-## Still testing this and need to validate 
-# #install OpenSSL for .NET Core
-# brew install openssl
-# mkdir -p /usr/local/lib
-# ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/
-# ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
-
-# #install .net core
-# brew install dotnet
 
