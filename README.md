@@ -129,18 +129,6 @@ git config --global merge.tool code
 - Clone desired repositories from GitHub to ~/repos
 - Restore selected repos from ~/repos backup disk
 
-## Install (Manual) Apps from App Store
-- ReadKit - has no brew cask install from App Store; license should come from store
-- Log into Pocket account using Gmail account
-- Log into Feedly using Gmail account 
-- Install Growl
-- Install Moom
-    - Configure Moom
-- Login to DropBox
-- Login to EverNote
-- Install Office Apps from Office 365
-- Install BitDefender
-- Install TextExpander
 
 ## Ongoing... HOWTO Keep Things Updated
 
