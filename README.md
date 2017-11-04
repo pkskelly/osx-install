@@ -42,21 +42,17 @@ curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/ma
 
 ## Homebrew & Homebrew Cask
 - Install [Homebrew](https://brew.sh/) for applications.
+
 ```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew doctor
-brew install caskroom/cask/brew-cask
-brew doctor
+curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install.sh | sh
 ```
 
 ## Install Core Apps 
-- Copy CoreInstall.sh locally (touch coreinstall.sh)
-- Make executable and run:
-    - ```chmod a+x coreinstall.sh``
-    - ```./coreinstall.sh```
-- Login to Chrome
-- Install LastPass 
-    - Configure LastPass
+Install core applications 
+
+```
+curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/coreinstall.sh | sh
+``
 
 ## Install Dev Apps
 - Copy or create devinstall.sh
