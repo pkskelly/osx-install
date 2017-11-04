@@ -52,34 +52,44 @@ Install core applications
 
 ```
 curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/coreinstall.sh | sh
-``
+```
 
 ## Install Dev Apps
-- Copy or create devinstall.sh
-- Make executable:  ```chmod a+x devinstall.sh```
-- Run ```./devinstall.sh``` 
+Install Dev apps, databases tools, and more. 
+```
+curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/devinstall.sh | sh
 
-The ```devinstall.sh``` will install nvm as the final install in order to prep for NodeJS. 
+``` 
+
+## Install Node Version Manager NVM
+```
+curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/nvm-install.sh | sh
 
 ```
-brew install NVM
-echo export NVM_DIR=~/.nvm >> ~/.bashrc
-echo source $(brew --prefix nvm)/nvm.sh
-```
+Be sure to add the following to .bash_profile
 
-- Run ```sh vscode-ext-install.sh```
+```
+export NVM_DIR=/Users/pete/.nvm
+source /usr/local/opt/nvm/nvm.sh
+```
 
 ## Install NodeJS 
-- Copy or create nodeinstall.sh
-- Make executable:  
-    - ```chmod a+x nodeinstall.sh``
-    - Run ```nodeinstall.sh```
-- May need to restart terminal to have npm functional
+Ensure nvm version (run nvm --version) from shell, then run
 
-##Install NPM and modules
-- Create or copy npminstall.sh
-- Make executable:  
-    - ```sh npminstall.sh```
+```
+curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/nodeinstall.sh | sh
+
+```
+
+## Install VSCode Extensions
+Run the followin to install all extensions 
+
+```
+curl -L  https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/vs-code-insiders-install.sh | sh
+
+```
+
+
 
 
 ## Update Homebrew and all installs
