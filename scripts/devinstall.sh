@@ -30,8 +30,8 @@ curl -L https://aka.ms/InstallAzureCli | bash
 
 #databases
 brew cask install mongodb
-brew cask install robomongo
-brew cask install sqlitebrowser
+brew cask install robo-3t
+brew cask install db-browser-for-sqlite
 
 
 
