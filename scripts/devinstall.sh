@@ -13,6 +13,7 @@ brew cask install ngrok
 brew cask install pencil
 brew cask install postman
 brew cask install smartgit 
+brew cask install sourcetree 
 brew cask install wireshark
 brew cask install visual-studio
 brew cask install visual-studio-code
