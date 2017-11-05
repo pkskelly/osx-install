@@ -2,7 +2,7 @@
 
 npm install -g @microsoft/generator-sharepoint
 npm install -g azure-cli
-npm install -g azure-functions-cli
+npm install -g azure-functions-core-tools
 npm install -g bower
 npm install -g browserify
 npm install -g concurrently
