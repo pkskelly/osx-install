@@ -81,6 +81,15 @@ curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/no
 
 ```
 
+## Install Global NPM Packages  
+Ensure nvm version (run nvm --version) from shell, then run
+
+```
+curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/npm-global-packages.sh | sh
+
+```
+
+
 ## Install VSCode Extensions
 Run the following to install all extensions. 
 ```
