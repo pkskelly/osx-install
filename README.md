@@ -2,6 +2,8 @@
 
 This is my personal build process for my Mac Book Pro.  I rebuild about every 6 months or so.  This process and several of the scripts are based on the initial restore process I ran into from Andrew Connell.  See [Andrew's blog post](http://www.andrewconnell.com/blog/rapid-complete-install-reinstall-os-x-like-a-champ-in-three-ish-hours) and [Andrew's version here](https://github.com/andrewconnell/osx-install).  
 
+Some additional ideas leveraged from [Jose Padilla's dotfiles](https://github.com/jpadilla/dotfiles/blob/master/Brewfile).
+
 
 ## Pre-Paving
 Before starting a fresh install or re-pave, backup current virtual machines from ```~/Documents/Parallels/VirtualMachines``` folder (or other location for virtual machines) to an external drive.
