@@ -3,7 +3,7 @@
 
 brew install openssl
 brew install tree
-
+brew install jq
 
 brew cask install adobe-air
 brew cask install cheatsheet
