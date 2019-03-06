@@ -6,6 +6,7 @@ brew install tree
 brew install jq
 
 brew cask install adobe-air
+brew cask install aerial
 brew cask install cheatsheet
 brew cask install dropbox 
 brew cask install evernote 
