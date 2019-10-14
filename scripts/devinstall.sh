@@ -12,7 +12,7 @@ brew cask install microsoft-azure-storage-explorer
 brew cask install ngrok
 brew cask install pencil
 brew cask install postman
-brew install fork
+brew cask install fork
 brew cask install smartgit 
 brew cask install sourcetree 
 brew cask install wireshark
