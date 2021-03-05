@@ -29,6 +29,9 @@ brew install cask yarn --ignore-dependencies
 # brew install azure-cli
 curl -L https://aka.ms/InstallAzureCli | bash
 
+# Azure Functions Tools
+brew install azure-functions-core-tools@3
+
 #databases
 #brew install cask mongodb
 #brew install cask robo-3t
