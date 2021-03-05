@@ -4,6 +4,7 @@
 brew install openssl
 brew install tree
 brew install jq
+brew install exa
 
 brew install cask adobe-air
 #brew install cask aerial
