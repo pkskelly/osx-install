@@ -6,30 +6,30 @@ brew install tree
 brew install jq
 
 brew cask install adobe-air
-brew cask install aerial
+#brew cask install aerial
 brew cask install cheatsheet
-brew cask install dropbox 
-brew cask install evernote 
-brew cask install freemind 
+#brew cask install dropbox 
+#brew cask install evernote 
+#brew cask install freemind 
 brew cask install firefox
-brew cask install google-drive
-brew cask install google-chrome 
-brew cask install grandperspective
-brew cask install growlnotify
-brew cask install iterm2 
-brew cask install joinme
+#brew cask install google-drive
+#brew cask install google-chrome 
+#brew cask install grandperspective
+#brew cask install growlnotify
+#brew cask install iterm2 
+#brew cask install joinme
 brew cask install kindle
 brew cask install lastpass
-brew cask install nook
+#brew cask install nook
 brew cask install pandora
-brew cask install sizeup 
+#brew cask install sizeup 
 brew cask install skitch
-brew cask install skype 
-brew cask install slack
+#brew cask install skype 
+#brew cask install slack
 brew cask install spotify
 brew cask install textexpander
 brew cask install textwrangler
-brew cask install xtrafinder 
+#brew cask install xtrafinder 
 
 
 # #some minor config changes for personal preferences
