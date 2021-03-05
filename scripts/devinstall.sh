@@ -1,38 +1,35 @@
 #!/bin/sh 
 
-brew cask install docker
-brew cask install dotnet-sdk
-brew cask install firefox 
-brew cask install ghost
-brew cask install iterm2
+brew install cask docker
+brew install cask dotnet-sdk
+brew install cask firefox 
+brew install cask ghost
+brew install cask iterm2
 #brew install java
 #brew install jsawk
 #brew install jsdoc3
-brew cask install microsoft-azure-storage-explorer
-brew cask install ngrok
-#brew cask install pencil
-brew cask install postman
-#brew cask install fork
-#brew cask install smartgit 
-#brew cask install sourcetree 
-#brew cask install wireshark
-brew cask install visual-studio
-#brew cask install visual-studio-code
-brew cask install visual-studio-code-insiders
-brew cask install xmind
+brew install cask microsoft-azure-storage-explorer
+brew install cask ngrok
+#brew install cask pencil
+brew install cask postman
+#brew install cask fork
+#brew install cask smartgit 
+#brew install cask sourcetree 
+#brew install cask wireshark
+brew install cask visual-studio
+#brew install cask visual-studio-code
+brew install cask visual-studio-code-insiders
+brew install cask xmind
 brew install youtube-dl
 
 # yarn without dependencies 
-brew cask install yarn --ignore-dependencies
+brew install cask yarn --ignore-dependencies
 
 # Azure ClI
 # brew install azure-cli
 curl -L https://aka.ms/InstallAzureCli | bash
 
 #databases
-#brew cask install mongodb
-#brew cask install robo-3t
-#brew cask install db-browser-for-sqlite
-
-
-
+#brew install cask mongodb
+#brew install cask robo-3t
+#brew install cask db-browser-for-sqlite
