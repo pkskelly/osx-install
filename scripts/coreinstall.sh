@@ -11,7 +11,7 @@ brew cask install cheatsheet
 #brew cask install dropbox 
 #brew cask install evernote 
 #brew cask install freemind 
-brew cask install firefox
+#brew cask install firefox
 #brew cask install google-drive
 #brew cask install google-chrome 
 #brew cask install grandperspective
