@@ -30,6 +30,7 @@ brew install cask yarn --ignore-dependencies
 curl -L https://aka.ms/InstallAzureCli | bash
 
 # Azure Functions Tools
+brew tap azure/functions
 brew install azure-functions-core-tools@3
 
 #databases
