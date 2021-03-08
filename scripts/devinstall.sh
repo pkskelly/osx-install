@@ -22,6 +22,7 @@ brew install cask visual-studio
 brew install cask visual-studio-code-insiders
 brew install cask xmind
 brew install youtube-dl
+brew install gh 
 
 # yarn without dependencies 
 brew install cask yarn --ignore-dependencies
