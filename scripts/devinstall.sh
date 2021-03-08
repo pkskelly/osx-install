@@ -10,6 +10,7 @@ brew install cask iterm2
 #brew install jsdoc3
 brew install cask microsoft-azure-storage-explorer
 brew install --cask powershell
+brew install --cask obs
 brew install cask ngrok
 #brew install cask pencil
 brew install cask postman
@@ -23,6 +24,7 @@ brew install cask visual-studio-code-insiders
 brew install cask xmind
 brew install youtube-dl
 brew install gh 
+
 
 # yarn without dependencies 
 brew install cask yarn --ignore-dependencies
