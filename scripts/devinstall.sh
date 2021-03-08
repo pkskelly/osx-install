@@ -9,6 +9,7 @@ brew install cask iterm2
 #brew install jsawk
 #brew install jsdoc3
 brew install cask microsoft-azure-storage-explorer
+brew install --cask powershell
 brew install cask ngrok
 #brew install cask pencil
 brew install cask postman
