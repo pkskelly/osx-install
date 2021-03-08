@@ -25,6 +25,7 @@ brew install cask xmind
 brew install youtube-dl
 brew install gh 
 
+brew install caskformula/caskformula/inkscape
 
 # yarn without dependencies 
 brew install cask yarn --ignore-dependencies
