@@ -30,6 +30,12 @@ brew install caskformula/caskformula/inkscape
 # yarn without dependencies 
 brew install cask yarn --ignore-dependencies
 
+
+#Add the tap for bicep       
+brew tap azure/bicep https://github.com/azure/bicep
+#Install the tool
+brew install azure/bicep/bicep
+
 # Azure ClI
 # brew install azure-cli
 curl -L https://aka.ms/InstallAzureCli | bash
