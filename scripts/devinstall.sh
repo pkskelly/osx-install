@@ -24,6 +24,7 @@ brew install cask visual-studio-code-insiders
 brew install cask xmind
 brew install youtube-dl
 brew install gh 
+brew install git-secrets
 
 brew install caskformula/caskformula/inkscape
 
