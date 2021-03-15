@@ -21,11 +21,21 @@ Before starting a fresh install or re-pave, backup current virtual machines from
     - ```~/.gitmessage```
 - Backup ~/repos - even though most of these would be git projects, some are not in a remote, so for safety back them up
     - Run ```rsync -aruv * /backups/repos``` (or any location you want to backup to)
-
+- Backup ~/bin - common utilities and other items
+    - Run ```rsync -aruv * /backups/bin``` (or any location you want to backup to)
+    - includes alias.sh and other common scripts
+- Backup git configuration info
+    - Run ```cp ~/.gitignore_global /backups/.gitignore_global ```
+    - Run ```cp ~/.gitignore_global /backups/.gitconfig```
+- Backup Powerline10k zsh profile
+    - Run ```cp ~/.gitignore_global /backups/.gitconfig```
+- Backup WakaTime Config info 
+    - Run ```cp ~/wakatime.cfg /backups/.wakatime.cfg```
 ## Node 
 - List all global packages 
     - ```npm list -g --depth=0```
     - Update nodeinstall.sh with all global packages
+
 
 ## Re-Pave Mac 
 - Reboot and press Command+R during reboot when Apple logo comes up
@@ -130,6 +140,9 @@ git config --global merge.tool code
 - Copy .bash_prompt
 - Run chmod +x .bash_prompt
 - Add “source ~/.bash_prompt” to .bash_profile
+- Copy /backups/bin to ~/bin 
+- Copy /backups/.p10k.zsh to ~/.p10k.zsh
+- Add ```source ~/bin/alias.sh``` to .zshrc file
 
 ## Restore Virtual Machines
 - Copy Virtual Machines
@@ -139,6 +152,7 @@ git config --global merge.tool code
 ## GitHub Restore
 - Clone desired repositories from GitHub to ~/repos
 - Restore selected repos from ~/repos backup disk
+
 
 
 ## Ongoing... HOWTO Keep Things Updated

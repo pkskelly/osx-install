@@ -1,37 +1,25 @@
 #!/bin/sh 
 
-
 brew install openssl
 brew install tree
 brew install jq
 brew install exa
 
-brew install cask adobe-air
-#brew install cask aerial
-brew install cask cheatsheet
-#brew install cask dropbox 
-#brew install cask evernote 
-#brew install cask freemind 
-#brew install cask firefox
-#brew install cask google-drive
-#brew install cask google-chrome 
-#brew install cask grandperspective
-#brew install cask growlnotify
-#brew install cask iterm2 
-#brew install cask joinme
-brew install cask kindle
-brew install cask lastpass
-#brew install cask nook
-brew install cask pandora
-#brew install cask sizeup 
-brew install cask skitch
-#brew install cask skype 
-#brew install cask slack
+brew install --cask aerial # screensavers
+brew install --cask cheatsheet
+brew install --cask dropbox
+brew install --cask evernote
+brew install --cask google-drive
+brew install --cask grandperspective
+brew install --cask kindle
+brew install --cask lastpass
+brew install --cask pandora
+brew install --cask send-to-kindle
+brew install --cask skitch
 brew install cask spotify
 brew install cask textexpander
 brew install cask textwrangler
-#brew install cask xtrafinder 
-
+brew install --cask xmind
 
 # #some minor config changes for personal preferences
 # defaults write com.apple.finder AppleShowAllFiles YES

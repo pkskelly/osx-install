@@ -1,5 +1,8 @@
 #!/bin/sh 
 
+# install mas-cli to install from the Mac App store
+brew install mas
+
 brew install --cask docker
 brew install --cask dotnet-sdk
 brew install --cask firefox
@@ -23,7 +26,6 @@ brew install caskformula/caskformula/inkscape
 
 # yarn without dependencies 
 brew install cask yarn --ignore-dependencies
-
 
 #Add the tap for bicep       
 brew tap azure/bicep https://github.com/azure/bicep
