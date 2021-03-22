@@ -1,5 +1,5 @@
 #!/bin/sh
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh
 brew doctor
 
 brew install cask

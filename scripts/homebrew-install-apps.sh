@@ -1,25 +1,76 @@
 #!/bin/sh 
 
-brew install openssl
-brew install tree
-brew install jq
+brew install azure-cli
 brew install exa
+brew install ffmpeg
+brew install gh 
+brew install git-secrets
+brew install jpeg
+brew install jq
+brew install mas 
+brew install nvm
+brew install neofetch
+brew install openssl
+brew install python@3.9
+brew install speedtest-cli
+brew install tree
+brew install vsts-cli
+brew install webp
+brew install youtube-dl
+
+# install mas-cli to install from the Mac App store
+brew install mas
 
 brew install --cask aerial # screensavers
+brew install --cask microsoft-azure-storage-explorer
+brew install --cask azure-data-studio
 brew install --cask cheatsheet
 brew install --cask dropbox
+brew install --cask docker
+brew install --cask dotnet-sdk
+brew install --cask drawio
+brew install --cask firefox
 brew install --cask evernote
+#brew install cask ghost
 brew install --cask google-drive
 brew install --cask grandperspective
+brew install --cask iterm2
 brew install --cask kindle
 brew install --cask lastpass
+brew install --cask microsoft-edge
+brew install --cask ngrok
+brew install --cask obs
 brew install --cask pandora
+brew install --cask parallels
+brew install --cask postman
+brew install --cask powershell
 brew install --cask send-to-kindle
 brew install --cask skitch
-brew install cask spotify
-brew install cask textexpander
-brew install cask textwrangler
+
+brew install --cask spotify
+brew install --cask textexpander
+brew install --cask visual-studio
+brew install --cask visual-studio-code
 brew install --cask xmind
+
+brew install caskformula/caskformula/inkscape
+
+#Add the tap for bicep       
+brew tap azure/bicep https://github.com/azure/bicep
+#Install the tool
+brew install azure/bicep/bicep
+
+# Azure Functions Tools
+brew tap azure/functions
+brew install azure-functions-core-tools@3
+
+#databases
+brew install sqlite
+brew install --cask db-browser-for-sqlite
+
+brew install romkatv/powerlevel10k/powerlevel10k
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+
 
 # #some minor config changes for personal preferences
 # defaults write com.apple.finder AppleShowAllFiles YES
