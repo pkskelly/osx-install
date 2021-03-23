@@ -8,6 +8,7 @@ brew install git-secrets
 brew install jpeg
 brew install jq
 brew install mas 
+brew install mono
 brew install nvm
 brew install neofetch
 brew install openssl
@@ -69,7 +70,9 @@ brew install sqlite
 brew install --cask db-browser-for-sqlite
 
 brew install romkatv/powerlevel10k/powerlevel10k
-echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>! ~/.zshrc
+
+mkdir ~/.nvm
 
 
 # #some minor config changes for personal preferences

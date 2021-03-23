@@ -30,37 +30,38 @@ Run the ```backup-local.sh``` script to make backups of critical config files an
 - Install [Homebrew](https://brew.sh/) for applications.
 
 ```
-curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install.sh | sh
+curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install.sh | sh
 ```
 
 ## Install Core Apps 
-Install core applications 
+Install core applications and add some configuration as needed. 
 
 ```
-curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install-apps.sh | sh
+curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install-apps.sh | sh
 ```
+
 
 ## Install MacOS Apps
 
-Install apps from the store. (mas app installed via Home Brew)
+Install apps from the store (mas app installed via Home Brew).  Need to be logged into Apple Id for this to work.
 
 ```
-curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/macos-install.sh | sh
+curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/macos-install.sh | sh
 ```
 
 ## Install Node using NVM Global NPM Packages  
 
-Ensure nvm version (run nvm --version) from shell, then run
+Ensure nvm version (run nvm --version) from shell, then run the following:
 
 ```
-curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/node-install.sh | sh
+curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/node-install.sh | sh
 
 ```
 
-Then run 
+Then run : 
 
 ```
-curl -L https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/npm-install-global-packages.sh | sh
+curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/npm-install-global-packages.sh | sh
 
 ```
 
@@ -90,7 +91,7 @@ git config --global merge.tool code-insiders
 
 ## GitHub Restore
 - Clone desired repositories from GitHub to ~/repos
-- Restore selected repos from ~/repos backup disk
+- Restore selected repos from ~/repos backup 
 
 ## Ongoing... HOWTO Keep Things Updated
 
