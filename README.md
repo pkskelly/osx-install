@@ -65,6 +65,10 @@ curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/n
 
 ```
 
+## Install PowerLine10k Fonts
+
+For best prompt with PowerLine10k install the [Meslo Fonts](https://github.com/romkatv/powerlevel10k/blob/master/font.md)
+
 ## Install Visual Studio Code Extensions
 
 This no longer needed since the extensions are sync'd when logged in.  
