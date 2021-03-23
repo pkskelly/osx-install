@@ -39,6 +39,8 @@ cd $__dir
 cp ~/.bash_profile $BACKUP_FOLDER/.bash_profile
 cp ~/.bash_prompt $BACKUP_FOLDER/.bash_prompt
 cp ~/.p10k.zsh $BACKUP_FOLDER  # Backup Powerline10k zsh profile
+cp ~/.zshrc $BACKUP_FOLDER  # Backup zsh rc
+
 # Check PowerShell profile folder 
 if [[ ! -d "$BACKUP_FOLDER/.config" ]]; then
     echo "Creating PowerShell profile folder..."    
