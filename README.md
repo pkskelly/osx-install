@@ -33,13 +33,17 @@ Run the ```backup-local.sh``` script to make backups of critical config files an
 curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install.sh | sh
 ```
 
+## Install PowerLine10k Fonts
+
+For best prompt with PowerLine10k install the [Meslo Fonts](https://github.com/romkatv/powerlevel10k/blob/master/font.md).  These can be installed while brew installing core apps. 
+
+
 ## Install Core Apps 
 Install core applications and add some configuration as needed. 
 
 ```
 curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install-apps.sh | sh
 ```
-
 
 ## Install MacOS Apps
 
@@ -64,10 +68,6 @@ Then run :
 curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/npm-install-global-packages.sh | sh
 
 ```
-
-## Install PowerLine10k Fonts
-
-For best prompt with PowerLine10k install the [Meslo Fonts](https://github.com/romkatv/powerlevel10k/blob/master/font.md)
 
 ## Install Visual Studio Code Extensions
 

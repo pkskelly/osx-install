@@ -50,6 +50,7 @@ brew install --cask skitch
 
 brew install --cask spotify
 brew install --cask textexpander
+brew install --cask mono-mdk
 brew install --cask visual-studio
 brew install --cask visual-studio-code
 brew install --cask xmind
