@@ -52,7 +52,8 @@ brew install --cask spotify
 brew install --cask textexpander
 brew install --cask mono-mdk
 brew install --cask visual-studio
-brew install --cask visual-studio-code
+brew tap homebrew/cask-versions # must tap for homebrew/cask-versions/mono-mdk-for-visual-studio dependency
+brew install visual-studio-code
 brew install --cask xmind
 
 brew install caskformula/caskformula/inkscape
