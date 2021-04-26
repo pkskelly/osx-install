@@ -41,6 +41,7 @@ brew install --cask lastpass
 brew install --cask microsoft-edge
 brew install --cask ngrok
 brew install --cask obs
+brew install --cask obs-ndi
 brew install --cask pandora
 brew install --cask parallels
 brew install --cask postman
