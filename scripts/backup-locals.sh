@@ -30,6 +30,9 @@ npm list -g --depth=0 >> $BACKUP_FOLDER/npm_global_packages.txt
 # Get a list of current npm root global packages
 code-insiders --list-extensions >> $BACKUP_FOLDER/code_extensions.txt
 
+# Get list of current .NET Global tools 
+dotnet tool list --global >> $BACKUP_FOLDER/dotnet_tools_global.txt
+
 # Backup a list of all /Applications 
 cd /Applications 
 ls -d */ | cut -f1 -d'/' > $BACKUP_FOLDER/Applications.txt
