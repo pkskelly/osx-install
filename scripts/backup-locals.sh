@@ -42,6 +42,7 @@ cd $__dir
 cp ~/.bash_profile $BACKUP_FOLDER/.bash_profile
 cp ~/.bash_prompt $BACKUP_FOLDER/.bash_prompt
 cp ~/.p10k.zsh $BACKUP_FOLDER  # Backup Powerline10k zsh profile
+cp ~/.zsh $BACKUP_FOLDER  # Backup zsh 
 cp ~/.zshrc $BACKUP_FOLDER  # Backup zsh rc
 
 # Check PowerShell profile folder 
@@ -51,6 +52,7 @@ if [[ ! -d "$BACKUP_FOLDER/.config" ]]; then
     mkdir "$BACKUP_FOLDER/.config/powershell"
 fi
 cp ~/.config/powershell/profile.ps1 $BACKUP_FOLDER/.config/powershell/profile.ps1
+cp ~/.config/powershell/Microsoft.PowerShell_profile.ps1 $BACKUP_FOLDER/.config/powershell/Microsoft.PowerShell_profile.ps1
 
 # Backup git configuration info
 cp ~/.gitconfig $BACKUP_FOLDER/.gitconfig
@@ -58,7 +60,6 @@ cp ~/.gitignore_global $BACKUP_FOLDER/.gitignore_global
 
 # Backup WakaTime Config info 
 cp ~/.wakatime.cfg $BACKUP_FOLDER/.wakatime.cfg
-
 
 # Backup ~/repos - even though most of these would be git projects, some are not in a remote, so for safety back them up
 cd ~/repos/github
@@ -68,6 +69,22 @@ echo "*******************************"
 find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
 mkdir -p $BACKUP_FOLDER/repos/github
 rsync -aruvP ~/repos/github/* $BACKUP_FOLDER/repos/github
+
+cd ~/repos/obsidian
+echo "*******************************" 
+echo "Removing node_modules and backing up $PWD..."  
+echo "*******************************"   
+find . -name 'node_modules' -type d -prune -exec rm -rf '{}' + 
+mkdir -p $BACKUP_FOLDER/repos/obsidian
+rsync -aruvP ~/repos/obsidian/* $BACKUP_FOLDER/repos/obsidian
+
+cd ~/repos/pluralsight
+echo "*******************************" 
+echo "Removing node_modules and backing up $PWD..."  
+echo "*******************************"   
+find . -name 'node_modules' -type d -prune -exec rm -rf '{}' + 
+mkdir -p $BACKUP_FOLDER/repos/pluralsight
+rsync -aruvP ~/repos/pluralsight/* $BACKUP_FOLDER/repos/pluralsight
 
 cd ~/repos/scratch
 echo "*******************************" 
