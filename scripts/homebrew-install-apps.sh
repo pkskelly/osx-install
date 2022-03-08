@@ -3,6 +3,7 @@
 brew install azure-cli
 brew install exa
 brew install ffmpeg
+brew install git
 brew install gh 
 brew install git-secrets
 brew install jpeg
@@ -83,25 +84,25 @@ mkdir ~/.nvm
 # defaults write com.apple.finder CreateDesktop -bool false && killall Finder
 
 # # Finder: show all filename extensions
-# defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # # Finder: show status bar
-# defaults write com.apple.finder ShowStatusBar -bool true
+defaults write com.apple.finder ShowStatusBar -bool true
 
 # # Finder: show path bar
-# defaults write com.apple.finder ShowPathbar -bool true
+defaults write com.apple.finder ShowPathbar -bool true
 
 # # Display full POSIX path as Finder window title
 # defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 # # Disable the warning when changing a file extension
-# defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 # # Avoid creating .DS_Store files on network volumes
-# defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 # #show the ~/Library folder
-# chflags nohidden ~/Library
+chflags nohidden ~/Library
 
 
 ###############################################################################
@@ -136,5 +137,9 @@ mkdir ~/.nvm
 
 # #Configure DOCK to remove icons not in use
 # defaults write com.apple.dock static-only -bool TRUE;
+
+# Set 'Menu Bar → Battery → Show Percentag' to 'YES'.
+defaults write com.apple.menuextra.battery ShowPercent -string 'YES'
+
 
 
