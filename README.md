@@ -30,7 +30,7 @@ Run the ```backup-local.sh``` script to make backups of critical config files an
 - Install [Homebrew](https://brew.sh/) for applications.
 
 ```
-curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install.sh | sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install.sh)"
 ```
 
 ## Install PowerLine10k Fonts
