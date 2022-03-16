@@ -10,7 +10,7 @@ mas signin $APPLEID
 
 # install macos apps
 mas install 588726889 #ReadKit
-mas install 568494494 #Pocket 
-mas install 419330170 #Moom
-mas install 497799835 #Xcode
+#mas install 568494494 #Pocket 
+#mas install 419330170 #Moom
+#mas install 497799835 #Xcode
 mas install 485812721 #TweetDeck
