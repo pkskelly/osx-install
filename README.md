@@ -42,7 +42,7 @@ For best prompt with PowerLine10k install the [Meslo Fonts](https://github.com/r
 Install core applications and add some configuration as needed. 
 
 ```
-curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install-apps.sh | sh
+/bin/bash -c "$(curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/homebrew-install-apps.sh)"
 ```
 
 ## Install MacOS Apps
@@ -50,7 +50,7 @@ curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/h
 Install apps from the store (mas app installed via Home Brew).  Need to be logged into Apple Id for this to work.
 
 ```
-curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/macos-install.sh | sh
+/bin/bash -c "$(curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/macos-install.sh)"
 ```
 
 ## Install Node using NVM Global NPM Packages  
@@ -58,14 +58,14 @@ curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/m
 Ensure nvm version (run nvm --version) from shell, then run the following:
 
 ```
-curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/node-install.sh | sh
+/bin/bash -c "$(curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/node-install.sh)"
 
 ```
 
 Then run : 
 
 ```
-curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/npm-install-global-packages.sh | sh
+/bin/bash -c "$(curl -sL https://raw.githubusercontent.com/pkskelly/osx-install/master/scripts/npm-install-global-packages.sh)"
 
 ```
 
