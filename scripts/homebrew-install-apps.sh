@@ -41,6 +41,7 @@ brew install --cask kindle
 brew install --cask lastpass
 brew install --cask microsoft-edge
 brew install --cask ngrok
+brew install --cask notion
 brew install --cask obs
 brew install --cask obs-ndi
 brew install --cask pandora
