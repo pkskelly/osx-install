@@ -16,6 +16,8 @@ brew install openssl
 brew install python@3.9
 brew install speedtest-cli
 brew install tree
+brew install visual-studio
+brew install visual-studio-code-insiders
 brew install vsts-cli
 brew install webp
 brew install youtube-dl
