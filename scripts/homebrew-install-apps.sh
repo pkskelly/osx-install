@@ -72,6 +72,10 @@ brew install azure/bicep/bicep
 brew tap azure/functions
 brew install azure-functions-core-tools@3
 
+# AWS Serverless CLI
+brew tap aws/tap
+brew install aws-sam-cli
+
 #databases
 brew install sqlite
 brew install --cask db-browser-for-sqlite
