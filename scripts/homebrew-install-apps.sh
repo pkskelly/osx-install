@@ -1,6 +1,7 @@
 #!/bin/sh 
 
 brew install azure-cli
+brew install discord
 brew install exa
 brew install ffmpeg
 brew install git
